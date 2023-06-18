@@ -40,8 +40,8 @@ const VideoSection = () => {
                 {[
                   "/icons/icn-settings-icnmd2.svg",
                   "/icons/icn-settings-icnmd3.svg",
-                ].map((img) => (
-                  <Stack direction={"row"} alignItems={"flex-start"} gap={2}>
+                ].map((img,i) => (
+                  <Stack key={i}direction={"row"} alignItems={"flex-start"} gap={2}>
                     <img src={process.env.PUBLIC_URL + img} alt="" />
                     <Stack gap={1}>
                       <Typography

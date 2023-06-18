@@ -44,8 +44,8 @@ const TeamSection = () => {
             </Typography>
           </Stack>
           <Grid container spacing={5}>
-            {teamMembers.map((teamMember) => (
-              <TeamMemberCard teamMember={teamMember} />
+            {teamMembers.map((teamMember,i) => (
+              <TeamMemberCard key={i} teamMember={teamMember} />
             ))}
           </Grid>
         </Stack>

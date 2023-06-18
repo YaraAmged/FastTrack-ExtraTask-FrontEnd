@@ -45,8 +45,8 @@ const ClientsOpinions = () => {
             sx={{ transform: { sm: "translateX(-100px)" } }}
             alignItems={"center"}
           >
-            {opinions.map((opinion) => (
-              <ClientsOpinionCard opinion={opinion} />
+            {opinions.map((opinion,i) => (
+              <ClientsOpinionCard key={i} opinion={opinion} />
             ))}
           </Stack>
         </Box>

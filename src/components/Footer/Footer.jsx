@@ -15,8 +15,9 @@ const Footer = () => {
                   "/icons/antdesigninstagramoutlined.svg",
                   "/icons/antdesigntwitteroutlined1.svg",
                   "/icons/carbonlogoyoutube1.svg",
-                ].map((img) => (
+                ].map((img,i) => (
                   <img
+                  key={i}
                     src={process.env.PUBLIC_URL + img}
                     alt=""
                     width={20}
