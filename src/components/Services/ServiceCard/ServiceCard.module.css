@@ -1,0 +1,31 @@
+.root {
+  background: white;
+  color: black;
+  padding: 40px;
+}
+.icon {
+  width: 48px;
+  height: 48px;
+}
+
+.btn {
+  font-weight: 400;
+  border: solid #00a0c1;
+  color: #00a0c1;
+  background: white;
+}
+
+.root.highlight {
+  background: #252b42;
+  color: white;
+}
+
+.root.highlight p,
+.root.highlight h5 {
+  color: white;
+}
+.root.highlight .btn {
+  border: none;
+  color: #ffa62b;
+  width: 110px;
+}

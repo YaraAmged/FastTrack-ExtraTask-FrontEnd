@@ -1,0 +1,14 @@
+.root {
+  position: relative;
+  background: white;
+  padding: 40px;
+}
+.img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translate(-65%, 20px);
+  width: 80px;
+  height: 80px;
+  border-radius: 100%;
+}

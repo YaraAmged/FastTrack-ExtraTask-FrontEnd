@@ -1,0 +1,31 @@
+.background {
+  background-size: cover;
+  background-position-x: right;
+  margin-bottom: 100px;
+}
+
+.backgroundCover {
+  background: rgba(0, 0, 0, 0.5);
+}
+.title {
+  font-weight: 800;
+  letter-spacing: 0.2px;
+  color: #ffffff;
+}
+.info {
+  font-weight: 500;
+  font-size: 20px;
+  letter-spacing: 0.2px;
+  color: #ffffff;
+}
+.quoteBtn {
+  background: #ffa62b;
+  border: none;
+  color: #ffffff;
+}
+
+.learnMBtn {
+  background: none;
+  color: white;
+  border: 1px solid #ffffff;
+}

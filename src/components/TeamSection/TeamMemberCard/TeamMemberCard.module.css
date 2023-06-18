@@ -1,0 +1,10 @@
+.root {
+  background: white;
+  padding: 30px;
+  border-radius: 5px;
+}
+.img {
+  width: 128px;
+  height: 128px;
+  border-radius: 100%;
+}
